@@ -1,11 +1,8 @@
-def square_digits(num):
-    digits = list(map(int, str(num)))
-    nums = []
-    for i in digits:
-        a = int(i)**2
-        nums.append(a)
-        
-    return nums
-
-square_digits(9119)
-        
+eng2sp = {}
+eng2sp['one'] = 'uno'
+eng2sp['two'] = 'dos'
+eng2sp['three'] = 'tres'
+print(eng2sp)
+print(eng2sp['two'])
+print(len(eng2sp))
+print('one' in eng2sp)      
