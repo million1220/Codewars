@@ -31,3 +31,17 @@ def add(a, b):
 
 result = add(3, 5)
 print(result)  # 輸出: 8
+
+a = '-----next code------'
+print(a)
+
+#12.8 A function that accumulates
+def mylen(seq):
+    c = 0 # initialize count varable to 0
+    for _ in seq: 
+        c=c+1 # increment count for each item in the sequence
+    return c # return the count
+print(mylen("hello"))  # 輸出: 5
+print(mylen([1, 2, 3, 4]))  # 輸出: 4
+
+
